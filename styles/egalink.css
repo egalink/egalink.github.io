@@ -310,14 +310,14 @@ a:hover { color: #17232B; }
 #contact a.btn {
     color: #16371D;
     text-align: center;
-    display: block;
+    display: inline-block;
     position: relative;
     background-color: #3EA956;
-    padding: 0.85em 3em;
+    padding: 0.85em;
     text-decoration: none;
     margin: 0 auto;
     border: 0;
-    text-transform: uppercase;
+    text-transform: lowercase;
     -webkit-border-radius: 3px;
        -moz-border-radius: 3px;
             border-radius: 3px;
