@@ -205,7 +205,7 @@ a:hover { color: #17232B; }
     width: 100hw;
 }
 
-#inicio article { margin: 25px 0 150px 0; }
+#inicio article { margin: 25px 0 75px 0; }
 #inicio h1,
 #inicio h5,
 #inicio p {
@@ -222,6 +222,9 @@ a:hover { color: #17232B; }
     font-weight: bold;
     margin: 0 2px 0 6px;
 }
+
+#inicio .wrapper p.hireme-btn { text-shadow: none; }
+
 @media screen and (max-width: 480px) {
 
     #inicio { padding: 3.65em 0; }
@@ -310,22 +313,6 @@ a:hover { color: #17232B; }
 
 #contact { background-color: #FFF; }
 
-#contact a.btn {
-    color: #16371D;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    background-color: #3EA956;
-    padding: 0.85em;
-    text-decoration: none;
-    margin: 0 auto;
-    border: 0;
-    text-transform: lowercase;
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
-}
-
 
 /* FOOTER:
  * ========================================================================== */
@@ -338,6 +325,27 @@ footer p {
     font-size: 0.8em;
     margin: 0 auto;
     padding: 2em;
+}
+
+
+/* OTROS EFECTOS:
+ * ========================================================================== */
+
+a.btn {
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: #3EA956;
+    padding: 0.85em 2em;
+    line-height: 0.85em;
+    text-decoration: none;
+    margin: 0 auto;
+    border: 0;
+    text-transform: lowercase;
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+            border-radius: 50px;
 }
 
 
