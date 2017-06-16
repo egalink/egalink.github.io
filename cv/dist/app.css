@@ -17,7 +17,7 @@ a { color: #3EA956; }
 #main {
   display: block;
   margin: 0 auto;
-  width: 980px;
+  max-width: 980px;
 }
 #sidebar {
   width: 33%;
@@ -136,4 +136,39 @@ a { color: #3EA956; }
   height: 1px;
   margin: 10px 0;
   background-color: #eeeeee;
+}
+
+@media screen and (max-width: 800px)
+{
+
+  #sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  #sidebar .presentation {
+    clear: both;
+  }
+
+  #sidebar .presentation .profile-img {
+    float: left;
+    max-width: 196px;
+    margin: 0 auto;
+    margin-right: 16px;
+  }
+
+  #sidebar .presentation #hire-me {
+    padding-top: 45px;
+  }
+
+  #sidebar .sidebar-content {
+    clear: both;
+  }
+
+  #content {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+  }
+  
 }
