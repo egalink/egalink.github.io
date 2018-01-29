@@ -25,9 +25,9 @@ section,
 article { position: relative; }
 section { padding: 3.65em 0; overflow: hidden; }
 
-a { color: #3EA956; text-decoration: none; }
+a { color: #4791BD; text-decoration: none; }
 a:active { color: #3F51B5; }
-a:hover { color: #2D7B3F;  text-decoration: underline; }
+a:hover { color: #33698A;  text-decoration: underline; }
 
 
 /* ESTRUCTURA DEL SITIO:
@@ -136,7 +136,7 @@ a:hover { color: #2D7B3F;  text-decoration: underline; }
     content: "";
     line-height: normal;
     padding: 8px;
-    background-color: #fff;
+    background-color: #BBC;
     -webkit-border-radius: 100%;
        -moz-border-radius: 100%;
             border-radius: 100%;
@@ -145,7 +145,7 @@ a:hover { color: #2D7B3F;  text-decoration: underline; }
          -o-transition: background-color 0.256s;
             transition: background-color 0.256s;
 }
-.flex-control-nav li a.flex-active { background-color: #2A3A3F; }
+.flex-control-nav li a.flex-active { background-color: #4791BD; }
 
 
 /* NAVIGATION:
@@ -173,7 +173,7 @@ a:hover { color: #2D7B3F;  text-decoration: underline; }
          -o-transition: background-color 0.128s;
             transition: background-color 0.128s;
 }
-#header nav a:hover { background-color: #3EA956; }
+#header nav a:hover { background-color: #4791BD; }
 
 @media screen and (max-width: 480px) {
 
@@ -227,11 +227,11 @@ a:hover { color: #2D7B3F;  text-decoration: underline; }
 #me p a { color: #FFF; }
 #me p a:hover { text-decoration: none; }
 #me p a.btn {
-    border-color: #3EA956;
+    border-color: #4791BD;
     color: #FFF;
 }
 #me p a.btn:hover {
-    background-color: #3EA956;
+    background-color: #4791BD;
     color: #1A2229;
 }
 
@@ -354,7 +354,7 @@ a:hover { color: #2D7B3F;  text-decoration: underline; }
  * ========================================================================== */
 
 #about { background-color: #FAFAFA; }
-#about .icon { color: #3EA956; font-size: 4em; }
+#about .icon { color: #4791BD; font-size: 4em; }
 
 @media screen and (max-width:640px) {
 
@@ -414,7 +414,7 @@ a:hover { color: #2D7B3F;  text-decoration: underline; }
  * ========================================================================== */
 
 #projects { background-color: #FAFAFA; }
-#projects .icon { color: #3EA956; font-size: 4em; }
+#projects .icon { color: #4791BD; font-size: 4em; }
 
 @media screen and (max-width:640px) {
 
@@ -429,7 +429,7 @@ a:hover { color: #2D7B3F;  text-decoration: underline; }
 /* CONTACT:
  * ========================================================================== */
 
-#contact { background-color: #3EA956; }
+#contact { background-color: #4791BD; }
 #contact h2 { color: #fff; }
 #contact p,
 #contact p a { color: #eee; }
@@ -440,7 +440,7 @@ a:hover { color: #2D7B3F;  text-decoration: underline; }
 }
 #contact p a.btn:hover {
     background-color: #2A3A3F;
-    color: #3EA956;
+    color: #4791BD;
 }
 
 
@@ -462,7 +462,7 @@ footer p {
  * ========================================================================== */
 
 .btn {
-    border: 2px solid #3EA956;
+    border: 2px solid #4791BD;
     color: #1A2229;
     display: inline-block;
     font-weight: 700;
@@ -483,7 +483,7 @@ footer p {
 
 .btn:hover,
 .btn:active {
-    color: #3EA956;
+    color: #4791BD;
     background-color: #1A2229;
     border-color: #1A2229;
     text-decoration: none;
@@ -556,7 +556,7 @@ footer p {
  * ========================================================================== */
 
 .text-green {
-    color: #3EA956;
+    color: #4791BD;
 }
 
 
