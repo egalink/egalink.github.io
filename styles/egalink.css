@@ -468,9 +468,12 @@ a:hover { color: #33698A;  text-decoration: underline; }
 }
 
 #contact p a.btn {
-    font-size: 13px;
     border-color: #2A3A3F;
     color: #2A3A3F;
+    font-size: 13px;
+    margin: 8px auto;
+    padding: 0.85rem 2rem;
+    min-width: 240px; 
 }
 #contact p a.btn:hover { color: #FFF; }
 #contact p a.btn:before { background-color: #2A3A3F; }
