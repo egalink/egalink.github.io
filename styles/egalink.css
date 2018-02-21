@@ -417,12 +417,13 @@ a:hover { color: #33698A;  text-decoration: underline; }
 #work .flexslider ol.flex-control-nav { text-align: center; }
 #work .flexslider ul.flex-direction-nav { display: none; }
 #work img {
-    box-shadow: 1px 1px 8px rgba(0,0,0, 0.35);
+    -webkit-box-shadow: 1px 1px 8px rgba(0,0,0, 0.35);
+            box-shadow: 1px 1px 8px rgba(0,0,0, 0.35);
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
 }
-
+#work h3 { margin-top: 0; }
 #work p.chops { font-size: 12px; font-weight: 400; }
 #work p.dot span.dot--separator:after {
     display: inline;
@@ -434,7 +435,7 @@ a:hover { color: #33698A;  text-decoration: underline; }
 #work p.options { font-size: 12px; }
 #work p.options a {
     font-size: inherit;
-    padding: 0.85rem 2rem;
+    padding: 0.64rem 1.64rem;
     text-decoration: none;
 }
 
