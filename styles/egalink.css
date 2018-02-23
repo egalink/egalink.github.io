@@ -618,6 +618,7 @@ footer p {
 
 /* CORTES DIAGONALES DE SECTIONS:
  * ========================================================================== */
+
 .diagonal-cut {
     overflow: initial;
     padding-top: 0.65em;
@@ -643,16 +644,6 @@ footer p {
         -ms-transform: skew(0deg, -2deg);
          -o-transform: skew(0deg, -2deg);
             transform: skew(0deg, -2deg);
-}
-
-
-/* GRID:
- * ========================================================================== */
-
-.grid { font-size: 0; position: relative; }
-.grid .element { display: inline-block; font-size: initial; }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .grid .element { font-size: 16px; }
 }
 
 
@@ -688,14 +679,6 @@ footer p {
 .margin-auto { margin: auto; }
 
 
-/* TEXT COLOR:
- * ========================================================================== */
-
-.text-green {
-    color: #4791BD;
-}
-
-
 /* TEXT ALIGMENT:
  * ========================================================================== */
 
@@ -708,9 +691,9 @@ footer p {
 /* VERTICAL ALIGNMENT:
  * ========================================================================== */
 
-.vertical-bottom { vertical-align: bottom; }
-.vertical-middle { vertical-align: middle; }
 .vertical-top { vertical-align: top; }
+.vertical-middle { vertical-align: middle; }
+.vertical-bottom { vertical-align: bottom; }
 
 
 /* WIDTH:
@@ -760,6 +743,7 @@ img.img-rounded {
 
 .test, .test * { outline: 1px solid red; outline-offset: -1px; }
 
+.clearfix.line { margin: 32px auto; }
 .clearfix.line:before {
     display: block;
     content: '';

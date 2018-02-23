@@ -118,7 +118,7 @@ var isMobile = function(){
         // Method Chaining
         // The ScrollReveal constructor, and it's primary methods all support chaining.
         window.sr = ScrollReveal();
-            sr.reveal('.reveal', { duration: 650 });
+               sr.reveal('.reveal', { duration: 650 });
 
     });
 
