@@ -47,10 +47,19 @@ var isMobile = function(){
     return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 };
 
+var randomIntFromInterval = function (min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+};
 
 ;(function($){
 
     'use strict';
+
+    /*!
+     * Ramdomly change the bg image:
+     */
+    $('#me').attr('style', '--background: url(./../images/bg-' + randomIntFromInterval(0, 0) + '.jpeg);')
+
 
     /**
      * Efecto parallax para fondos con imágenes:
