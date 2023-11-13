@@ -229,16 +229,18 @@ a:hover { color: #33698A;  text-decoration: underline; }
 #me h1 { line-height: normal; }
 #me h5 { font-size: 15px; }
 
-#me .me__card { margin: 1em auto; }
+#me .me__card {
+    margin: 1em auto;
+}
 #me .me__card h1,
 #me .me__card h5 { margin: 0 auto; }
 
 #me p  { font-size: 13px; }
 #me p a { color: #FFF; }
 #me p a:hover { text-decoration: none; }
-#me .wrapper--img { text-align: right; }
-#me img { height: auto; width: 90%; }
-/*
+#me .wrapper--img { text-align: center; }
+#me img { height: auto; width: 90%; max-width: 260px; }
+
 #me .btn {
     margin: 8px auto;
     min-width: 240px;
@@ -249,37 +251,20 @@ a:hover { color: #33698A;  text-decoration: underline; }
     top: 3px;
     margin-right: 8px;
     position: relative;
-}/*
+}
 
-@media screen and (max-width: 840px) {
-    #me .griditify .row .col {
-        max-width: 100%;
-        -ms-flex-preferred-size: 100%;
-        -webkit-flex-basis: 100%;
-                flex-basis: 100%;
-    }
+@media only screen and (max-width: 47.9em) {
     #me h1,
     #me h2,
     #me h5,
     #me p { text-align: center; }
-    #me h1 { font-size: 24px; }
-    #me h2 { font-size: 20px; }
-    #me .wrapper.wrapper--img { text-align: center; }
-    #me img { height: auto; max-width: 220px; }
-}
 
-@media screen and (max-width: 640px) {
-    #me { background-image: none; }
-    #me h1 { font-size: 22px; }
-    #me h2 { font-size: 18px; }
+    #me .me__card {
+        margin: 0 auto;
+    }
+    #me .me__card h1,
+    #me .me__card h5 { margin: 1rem auto; }
 }
-
-@media screen and (max-width: 320px) {
-    #me h1 { font-size: 20px; }
-    #me h2 { font-size: 16px; }
-    #me h3 { font-size: 12px; }
-}
-
 
 /*
  * TYPER js:
@@ -389,6 +374,7 @@ a:hover { color: #33698A;  text-decoration: underline; }
 }
 #experience .icon { color: #4791BD; font-size: 4em; }
 
+/*
 @media screen and (max-width: 840px) {
     #experience .griditify .col-04 {
         max-width: 100%;
@@ -405,6 +391,7 @@ a:hover { color: #33698A;  text-decoration: underline; }
 @media screen and (max-width: 480px) {
     #experience .griditify .col-04 p { width: 100%; }
 }
+*/
 
 
 /* TECHNOLOGY:
@@ -416,14 +403,6 @@ a:hover { color: #33698A;  text-decoration: underline; }
 }
 #technology .icon { color: #4791BD; font-size: 4em; }
 
-@media screen and (max-width: 640px) {
-    #technology .griditify .col-06 {
-        max-width: 100%;
-        -ms-flex-preferred-size: 100%;
-        -webkit-flex-basis: 100%;
-                flex-basis: 100%;
-    }
-}
 
 /* WORK:
  * ========================================================================== */
@@ -458,6 +437,7 @@ a:hover { color: #33698A;  text-decoration: underline; }
     text-decoration: none;
 }
 
+/*
 @media screen and (max-width: 840px) {
     #work .col-06 {
         -ms-flex-preferred-size: 100%;
@@ -468,6 +448,7 @@ a:hover { color: #33698A;  text-decoration: underline; }
     #work h3.text-left,
     #work p.text-left { text-align: center; }
 }
+*/
 
 
 /* CONTACT:
