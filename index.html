@@ -32,10 +32,10 @@
         <link href="styles/ie.css" rel="stylesheet"/>
         <script src="js/html5shiv.min.js"></script>
         <script src="js/html5shiv-printshiv.min.js"></script>
-		<!-- Calendly badge widget begin -->
-		<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-		<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-		<!-- Calendly badge widget end -->
+        <!-- Calendly badge widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <!-- Calendly badge widget end -->
     </head>
 
     <body>
@@ -48,63 +48,77 @@
                 <a href="#work">Proyectos</a>
                 <a href="#contact">Contacto</a>
                 <a href="./cv/" style="color:#fea;">Curriculum Vitae</a>
-                <a href="//github.com/egalink" title="Mi repositorio en GitHub"><span class="fa fa-github fa-lg"></span></a>
+                <a href="https//github.com/egalink" title="Mi repositorio en GitHub"><span class="fa fa-github fa-lg"></span></a>
             </nav>
         </header>
+        <!---->
 
         <!-- me: -->
         <section id="me" class="fullpage fullpage--centered parallax" style="--background: url('../images/bg-0.jpeg')">
-            <article class="content">
-                <div class="griditify">
-                    <div class="row middle">
-                        <div class="col-xs-12 col-sm-04">
-                            <div class="wrapper wrapper--img reveal">
-                                <img class="img-responsive img-bordered img-rounded" src="images/me.jpg" alt="images/me.svg"/>
-                            </div>
+            <article class="content griditify">
+                <div class="row middle">
+                    <div class="col-xs-12 col-sm-12 col-md-04">
+                        <div class="wrapper wrapper--img reveal">
+                            <img class="img-responsive img-bordered img-rounded" src="images/me.jpg" alt="images/me.svg"/>
                         </div>
-                        <div class="col-xs-12 col-sm-08">
-                            <div class="wrapper reveal">
-                                <div class="me__card">
-									<h1>¡Hola! soy Jakim Hernández</h1>
-									<h5>Desarrollo Sitios Web y Aplicaciones extraordinarias usando <b>FastAPI, Node.js, Vue.js, MongoDB, Docker</b> y otras excelentes herramientas.</h5>
-								</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-08">
+                        <div class="wrapper reveal">
+                            <div class="me__card me__card--presentation">
+                                <h1>Soy Jakim Hernández</h1>
+                                <p>Desarrollo Sitios Web y Aplicaciones extraordinarias usando <b>Vue.js, Flask, MongoDB, Docker</b> y otras excelentes herramientas.</p>
+                                <br/>
                                 <h2>
-                                    <span class="display-block">Necesitas</span>
+                                    <span class="display-block">Contáctame para,</span>
                                     <span class="display-block cd-headline letters type">
                                         <span class="display-inblock cd-words-wrapper">
-                                            <b class="is-visible">un sitio web responsivo?</b>
-											<b>e-commerce o una landing page?</b>
-											<b>una aplicación a medida?</b>
-											<b>una app móvil?</b>
-											<b>integrar pasarelas de pago?</b>
-											<b>consumir o crear una API?</b>
-											<b>implementar micro-servicios?</b>
-											<b>una solución on-cloud de Azure o AWS?</b>
+                                            <b class="is-visible">desarrollar un sitio web responsivo.</b>
+                                            <b>crear una landing page o e-commerce.</b>
+                                            <b>hacer una aplicación a la medida.</b>
+                                            <b>desarrollar una app móvil.</b>
+                                            <b>integrar pasarelas de pago.</b>
+                                            <b>consumir o crear una API.</b>
+                                            <b>implementar micro-servicios.</b>
+                                            <b>una solución on-cloud de Azure o AWS.</b>
                                         </span>
                                     </span>
                                 </h2>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="wrapper reveal">
-                                <p class="margin-none-auto text-center">
-                                    <a class="btn btn--bounce-bottom smooth" href="#contact">Contáctame Ahora</a>
-                                </p>
-								<p class="margin-none-auto text-center">Ó</p>
-								<p class="margin-none-auto text-center">
-                                    <a class="display-inblock smooth" href="#experience">
-										<span class="display-block">REVISA MI TRABAJO</span>
-										<span class="down-arrow"></span>
-									</a>
+                            <br/>
+                            <div class="me__card me__card--presentation">
+                                <p>
+                                    <a class="btn" href="mailto:egalink@gmail.com">
+                                        <span class="fa fa-envelope"></span>
+                                    </a>
+                                    <a class="btn" href="https://calendly.com/egalink/platicame-tu-idea-proyecto" onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/egalink' }); return false;">
+                                        <span class="fa fa-calendar"></span>
+                                    </a>
+                                    <a class="btn" target="_blank" href="https://www.linkedin.com/in/egalink">
+                                        <span class="fa fa-linkedin"></span>
+                                    </a>
+                                    <a class="btn" href="https://twitter.com/egalink" target="_blank">
+                                        <span class="fa fa-twitter"></span>
+                                    </a>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wrapper reveal">
+                            <p class="margin-none-auto text-center">
+                                <a class="display-inblock smooth" href="#experience">
+                                    <span class="display-block">¿Quieres ver mi experiencia?</span>
+                                    <span class="down-arrow"></span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </article>
         </section>
+        <!---->
 
         <!-- experience: -->
         <section id="experience">
@@ -113,70 +127,71 @@
                     <div class="col-xs-12">
                         <div class="wrapper reveal">
                             <h2 class="text-center">Experiencia</h2>
-							<p class="text-center enlarge">¡En todas las fases del proceso de Diseño, Desarrollo e Implementación de tu Proyecto Web!</p>
-                            <!--<div class="clearfix line"></div>-->
+                            <p class="text-center enlarge">¡En todas las fases del proceso de Diseño, Desarrollo e Implementación de tu Proyecto Web!</p>
+                            <div class="clearfix line"></div>
                         </div>
                     </div>
                 </div>
-				<div class="row top center">
-					<div class="col-xs-12 col-sm-04">
-						<div class="wrapper reveal">
-							<p class="text-center">
-								<span class="icon fa fa-lightbulb-o"></span>
-							</p>
-							<h3>Planteamiento</h3>
-							<p>Platicaremos tu idea y en conjunto armamos un concepto.</p>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-04">
-						<div class="wrapper reveal">
-							<p class="text-center">
-								<span class="icon fa fa-file-text"></span>
-							</p>
-							<h3>Definición</h3>
-							<p>Revisamos un ejemplo que iremos ajustando al concepto inicial.</p>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-04">
-						<div class="wrapper reveal">
-							<p class="text-center">
-								<span class="icon fa fa-object-group"></span>
-							</p>
-							<h3>Diseño</h3>
-							<p>Usando patrones intuitivos e interacciones precisas de UX/UI.</p>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-04">
-						<div class="wrapper reveal">
-							<p class="text-center">
-								<span class="icon fa fa-code"></span>
-							</p>
-							<h3>Desarrollo</h3>
-							<p>Con tecnologías, patrones y arquitecturas ad-oc a tu proyecto.</p>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-04">
-						<div class="wrapper reveal">
-							<p class="text-center">
-								<span class="icon fa fa-flag-o"></span>
-							</p>
-							<h3>Entrega</h3>
-							<p>Con las pruebas de funcionamiento pertinentes y el V°B° tuyo.</p>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-04">
-						<div class="wrapper reveal">
-							<p class="text-center">
-								<span class="icon fa fa-headphones"></span>
-							</p>
-							<h3>Soporte</h3>
-							<p>De 30 días (o un plan personalizado) para asegurar su éxito.</p>
-						</div>
-					</div>
-				</div>
+                <div class="row top center">
+                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
+                        <div class="wrapper reveal">
+                            <p class="text-center">
+                                <span class="icon fa fa-lightbulb-o"></span>
+                            </p>
+                            <h3>Planteamiento</h3>
+                            <p>Platicaremos tu idea y en conjunto armamos un concepto.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
+                        <div class="wrapper reveal">
+                            <p class="text-center">
+                                <span class="icon fa fa-file-text"></span>
+                            </p>
+                            <h3>Definición</h3>
+                            <p>Revisamos un ejemplo que iremos ajustando al concepto inicial.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
+                        <div class="wrapper reveal">
+                            <p class="text-center">
+                                <span class="icon fa fa-object-group"></span>
+                            </p>
+                            <h3>Diseño</h3>
+                            <p>Usando patrones intuitivos e interacciones precisas de UX/UI.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
+                        <div class="wrapper reveal">
+                            <p class="text-center">
+                                <span class="icon fa fa-code"></span>
+                            </p>
+                            <h3>Desarrollo</h3>
+                            <p>Con tecnologías, patrones y arquitecturas ad-oc a tu proyecto.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
+                        <div class="wrapper reveal">
+                            <p class="text-center">
+                                <span class="icon fa fa-flag-o"></span>
+                            </p>
+                            <h3>Entrega</h3>
+                            <p>Con las pruebas de funcionamiento pertinentes y el V°B° tuyo.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
+                        <div class="wrapper reveal">
+                            <p class="text-center">
+                                <span class="icon fa fa-headphones"></span>
+                            </p>
+                            <h3>Soporte</h3>
+                            <p>De 30 días (o un plan personalizado) para asegurar su éxito.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="clearfix"></div>
             </article>
         </section>
+        <!---->
 
         <!-- technology: -->
         <section id="technology" class="diagonal-cut">
@@ -186,19 +201,19 @@
                         <div class="wrapper reveal">
                             <h2 class="text-center">Tecnología</h2>
                             <p class="text-center enlarge">¡Lo más moderno y seguro en la industria del software para Internet!</p>
-                            <!--<div class="clearfix line"></div>-->
+                            <div class="clearfix line"></div>
                         </div>
                     </div>
                     <div class="col-xs-12">
                         <div class="wrapper">
                             <img class="img-responsive" src="./images/technology/stack.png" alt="" style="width: 100%; max-width: 960px;"/>
-							<div class="clearfix line"></div>
                         </div>
                     </div>
                 </div>
                 <div class="clearfix"></div>
             </article>
         </section>
+        <!---->
 
         <!-- work: -->
         <section id="work" class="diagonal-cut diagonal-cut--inverted">
@@ -206,12 +221,12 @@
                 <div class="wrapper reveal">
                     <h2 class="text-center">Proyectos</h2>
                     <p class="text-center margin-auto enlarge">Te muestro algunos de los proyectos en los que he colaborado activamente.</p>
-                    <!--<div class="clearfix line"></div>-->
+                    <div class="clearfix line"></div>
                 </div>
                 <div class="wrapper reveal flexslider">
                     <ul class="slides">
                         <li class="griditify">
-                            <div class="row top center">
+                            <div class="row middle center">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/calendar.png" alt=""/>
@@ -236,7 +251,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center reverse">
+                            <div class="row middle center reverse">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/nominas1.2.png" alt=""/>
@@ -259,7 +274,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center">
+                            <div class="row middle center">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/toasty.png" alt=""/>
@@ -268,7 +283,7 @@
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <h3 class="text-left">Toasty.js</h3>
-                                        <p class="text-left">Plug-in JS que proporciona una forma sencilla de mostrar notificaciónes personalizables en un sitio web.</p>
+                                        <p class="text-left">Plug-in JS que proporciona una forma sencilla de mostrar notificaciones personalizables en un sitio web.</p>
                                         <p class="text-left chops dot">
                                             <span class="dot--separator">Vanilla JS</span>
                                             <span class="dot--separator">Node.js</span>
@@ -284,7 +299,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center reverse">
+                            <div class="row middle center reverse">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/dyd.png" alt=""/>
@@ -292,7 +307,7 @@
                                 </div>
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
-                                        <h3 class="text-left">Aplicación web para envío de invitaciónes.</h3>
+                                        <h3 class="text-left">Aplicación web para envío de invitaciones.</h3>
                                         <p class="text-left">Envía invitaciones por correo electrónico y recordatorios automáticos para su evento (basado en la aplicación web "Fastener Fair México 2016").</p>
                                         <p class="text-left chops dot">
                                             <span class="dot--separator">PHP Laravel 5.3</span>
@@ -310,7 +325,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center">
+                            <div class="row middle center">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/fastener-fair.png" alt=""/>
@@ -331,7 +346,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center reverse">
+                            <div class="row middle center reverse">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/interlux-website.png" alt=""/>
@@ -355,7 +370,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center">
+                            <div class="row middle center">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/locutora-admin.png" alt=""/>
@@ -379,7 +394,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center reverse">
+                            <div class="row middle center reverse">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/interlux-proveedores.png" alt=""/>
@@ -400,7 +415,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center">
+                            <div class="row middle center">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/locutora.png" alt=""/>
@@ -424,7 +439,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center reverse">
+                            <div class="row middle center reverse">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/interlux-nominas.png" alt=""/>
@@ -445,7 +460,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center">
+                            <div class="row middle center">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/epg-2015.png" alt=""/>
@@ -470,7 +485,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center reverse">
+                            <div class="row middle center reverse">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/interlux-sistema-ventas.png" alt=""/>
@@ -492,7 +507,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center">
+                            <div class="row middle center">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/epm-2014.png" alt=""/>
@@ -517,7 +532,7 @@
                             </div>
                         </li>
                         <li class="griditify">
-                            <div class="row top center reverse">
+                            <div class="row middle center reverse">
                                 <div class="col-xs-12 col-md-06">
                                     <div class="wrapper">
                                         <img class="img-responsive width-85" src="images/portafolio/fem-internacional.png" alt=""/>
@@ -543,6 +558,7 @@
                 <div class="clearfix"></div>
             </article>
         </section>
+        <!---->
 
         <!-- contact: -->
         <section id="contact" class="diagonal-cut">
@@ -557,14 +573,14 @@
                                     <br/>
                                     Tómate unos minutos para contarme al respecto.
                                 </p>
-                                <!--<div class="clearfix line"></div>-->
+                                <div class="clearfix line"></div>
                             </div>
                             <div class="wrapper reveal">
                                 <p class="text-center">México</p>
                                 <p class="text-center">
-									<a class="btn btn--active-status smooth" href="#me" onclick="Calendly.initPopupWidget({ url: '//calendly.com/egalink' }); return false;">
-										<span class="fa fa-calendar"></span> Agenda llamada
-									</a>
+                                    <a class="btn btn--active-status smooth" href="https://calendly.com/egalink/platicame-tu-idea-proyecto" onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/egalink' }); return false;">
+                                        <span class="fa fa-calendar"></span> Agenda llamada
+                                    </a>
                                     <a class="btn btn--bounce-bottom" href="tel:+5215513718399">
                                         <span class="fa fa-phone"></span> +52 1 55 1371 8399
                                     </a>
@@ -575,21 +591,21 @@
                             </div>
                             <div class="wrapper reveal">
                                 <p class="text-center enlarge">
-                                    <a class="display-inblock with-50" target="_blank" href="//www.linkedin.com/in/egalink">
+                                    <a class="display-inblock with-50" target="_blank" href="https://www.linkedin.com/in/egalink">
                                         <span class="fa fa-linkedin-square"></span> LinkedIn
                                     </a>
                                     <span class="display-inblock width-05">|</span>
-                                    <a class="display-inblock with-50" target="_blank" href="//github.com/egalink">
+                                    <a class="display-inblock with-50" target="_blank" href="https://github.com/egalink">
                                         <span class="fa fa-github"></span> GitHub
                                     </a>
                                     <span class="display-inblock width-05">|</span>
-									<a class="display-inblock with-50 smooth" href="//twitter.com/egalink" target="_blank">
-										<span class="fa fa-twitter"></span> Twitter
-									</a>
+                                    <a class="display-inblock with-50 smooth" href="https://twitter.com/egalink" target="_blank">
+                                        <span class="fa fa-twitter"></span> Twitter
+                                    </a>
                                 </p>
                             </div>
                             <div class="wrapper reveal">
-                                <p class="text-center enlarge">Cotizaciones sin compromiso. <br/> Pagos por hora, mes o proyecto.</p>
+                                <p class="text-center enlarge">Cotizaciones sin compromiso, pagos por hora, mes o proyecto.</p>
                             </div>
                         </div>
                     </div>
@@ -597,6 +613,7 @@
                 <div class="clearfix"></div>
             </article>
         </section>
+        <!---->
 
         <!-- footer: -->
         <footer class="parallax">
@@ -604,6 +621,7 @@
                 <p>Jakim Hernández &copy; 2017<span id="current-year"></span>.</p>
             </div>
         </footer>
+        <!---->
 
         <!-- assets: -->
         <script src="js/jquery-1.11.3.min.js"></script>

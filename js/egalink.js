@@ -60,7 +60,6 @@ var randomIntFromInterval = function (min, max) {
      */
     $('#me').attr('style', '--background: url(./../images/bg-' + randomIntFromInterval(0, 0) + '.jpeg);')
 
-
     /**
      * Efecto parallax para fondos con imágenes:
      */
