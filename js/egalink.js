@@ -87,6 +87,14 @@ var randomIntFromInterval = function (min, max) {
     $(document).ready(function($){
 
         /*!
+         * Thanks to: Petr Tichy <https://ihatetomatoes.net/>
+         *
+         * This will toggle between our content and the
+         * preloader screen animating out.
+         */
+        setTimeout(function () { $('body').toggleClass('loaded'); }, 512);
+
+        /*!
          * Smooth page Scroll:
          */
         $('nav a[href^=#], a.smooth[href^=#]').on('click', function(e){
@@ -127,7 +135,6 @@ var randomIntFromInterval = function (min, max) {
         // The ScrollReveal constructor, and it's primary methods all support chaining.
         window.sr = ScrollReveal();
                sr.reveal('.reveal', { duration: 650 });
-
     });
 
 })(jQuery);
