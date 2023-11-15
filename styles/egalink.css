@@ -213,8 +213,9 @@ a:hover { color: #33698A;  text-decoration: underline; }
         padding: .5em;
     }
     .js .nav-toggle span:before { font-size: 2em; content: '\f0c9'; }
+    /*
     .js .nav-toggle:hover span,
-    .js .nav-toggle.active span {}
+    .js .nav-toggle.active span {}/**/
     .js .nav-toggle,
     .js .nav-toggle span {
         -webkit-transition: all 128ms;
@@ -365,7 +366,7 @@ a:hover { color: #33698A;  text-decoration: underline; }
 }
 #me p a { color: inherit; }
 
-#me h1 {  }
+/*#me h1 {  }/**/
 #me h2 { font-size: 22px; }
 #me p b {
     color: #FEA;
