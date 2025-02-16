@@ -51,9 +51,32 @@ var randomIntFromInterval = function (min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 };
 
+// Función para determinar si es AM o PM y cambiar los estilos:
+var cambiarEstilosSegunHora = function () {
+    // cambia las variables CSS según noche o día
+    var horas = ( new Date() ).getHours();
+    if (horas >= 18 || horas < 6) {
+        document.documentElement.style.setProperty('--selection-background-color', 'var(--primary-color1)');
+        document.documentElement.style.setProperty('--selection-text-color', 'var(--primary-color2)');
+        document.documentElement.style.setProperty('--highlight-this-element', 'var(--primary-color6)');
+        document.documentElement.style.setProperty('--background-color1', 'var(--primary-color3)');
+        document.documentElement.style.setProperty('--background-color2', 'var(--primary-color2)');
+        document.documentElement.style.setProperty('--text-color', 'var(--primary-color1)');
+    } else {
+        document.documentElement.style.setProperty('--selection-background-color', 'var(--primary-color3)');
+        document.documentElement.style.setProperty('--selection-text-color', 'var(--primary-color1)');
+        document.documentElement.style.setProperty('--highlight-this-element', 'var(--primary-color4)');
+        document.documentElement.style.setProperty('--background-color1', 'var(--primary-color0)');
+        document.documentElement.style.setProperty('--background-color2', 'var(--primary-color1)');
+        document.documentElement.style.setProperty('--text-color', 'var(--primary-color2)');
+    }
+}
+
 ;(function($){
 
     'use strict';
+
+    cambiarEstilosSegunHora();
 
     /*!
      * Ramdomly change the bg image:

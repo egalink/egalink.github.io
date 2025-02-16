@@ -8,24 +8,26 @@
     --primary-color0: #ffffff;
     --primary-color1: #f5f5f5;
     --primary-color2: #2A3A3F;
-    --primary-color3: #4a90e2;
-    --primary-color4: #008080;
-    --primary-color5: #f9c922;
-    --primary-color6: #e74c3c;
+    --primary-color3: #364044;
+    --primary-color4: #4a90e2;
+    --primary-color5: #008080;
+    --primary-color6: #f9c922;
+    --primary-color7: #e74c3c;
 
     --selection-background-color: var(--primary-color2);
     --selection-text-color: var(--primary-color1);
     
-    --highlight-this-element: var(--primary-color3);
+    --highlight-this-element: var(--primary-color4);
     
     --background-color1: var(--primary-color0);
     --background-color2: var(--primary-color1);
+    --background-color3: var(--primary-color2);
 
     --text-color: var(--primary-color2);
 
-    --preloader-spin1-color: var(--primary-color3);
-    --preloader-spin2-color: var(--primary-color5);
-    --preloader-spin3-color: var(--primary-color6);
+    --preloader-spin1-color: var(--primary-color4);
+    --preloader-spin2-color: var(--primary-color6);
+    --preloader-spin3-color: var(--primary-color7);
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -57,8 +59,8 @@ h1, h2, h3, h4, h5, h6, p {
 h1, h2, h3, h4, h5, h6 { font-family: 'Roboto Condensed', sans-serif; }
 h1, h2, h3 { font-weight: 700; }
 h4, h5, h6, b { font-weight: 500; }
-p { font-size: 18px; font-weight: 300; }
-p.enlarge { font-size: 21px; }
+p { font-size: 16px; font-weight: 300; }
+p.enlarge { font-size: 18px; }
 
 section,
 article { position: relative; }
@@ -325,7 +327,10 @@ a:hover { text-decoration: underline; }
     right: 0;
     z-index: 99;
 }
-#header nav { padding: 1.5em 0; }
+#header nav {
+    padding: 1.5em 0;
+    color: var(--text-color);
+}
 #header nav a {
     display: inline-block;
     font-size: 0.95em;
@@ -340,6 +345,7 @@ a:hover { text-decoration: underline; }
             transition: background-color 0.128s;
 }
 #header nav a:hover { background-color: var(--background-color2); }
+#header nav a.nav-link--cv { color: var(--highlight-this-element); }
 
 @media screen and (max-width: 640px) {
 
@@ -565,6 +571,17 @@ a:hover { text-decoration: underline; }
     min-height: 100vh;
 }
 #technology .icon { color: var(--highlight-this-element); font-size: 4em; }
+#technology .wrapper--img {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 6px rgba(255,255,255, 0.16);
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+            border-radius: 16px;
+}
+#technology .wrapper--img img { position: relative; }
 
 
 /* WORK:
@@ -854,8 +871,11 @@ img.img-responsive {
 }
 
 img.img-bordered {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255,255,255, 0.16);
     padding: 6px;
+    -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+            border-radius: 16px;
 }
 
 img.img-rounded {
