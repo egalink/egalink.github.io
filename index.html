@@ -1,648 +1,407 @@
 <!DOCTYPE html>
-<html lang="es" class="no-js">
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    
+    <!-- Core Meta Tags -->
+    <title>Jakim Hernández - Fullstack Developer Fullstack Web Developer DevOps Engineer | Desarrollo Web Profesional</title>
+    <meta name="description" content="Desarrollador fullstack profesional especializado en Node.js, PHP, React, Angular, PostgreSQL, MongoDB, Docker y Azure. Creo aplicaciones web modernas y escalables."/>
+    <meta name="keywords" content="desarrollador web, fullstack developer, Node.js, PHP, React, Angular, web development, desarrollo web, México"/>
+    
+    <!-- Geo Meta Tags -->
+    <meta name="geo.placename" content="Cuautitlán Izcalli, Estado de México"/>
+    <meta name="geo.country" content="MX"/>
+    
+    <!-- Robots & Indexing -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+    <meta name="googlebot" content="index, follow"/>
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://jakim.me/"/>
+    <meta property="og:title" content="Jakim Hernández - Fullstack Developer Fullstack Web Developer DevOps Engineer"/>
+    <meta property="og:description" content="Desarrollo de aplicaciones web modernas, escalables y de alto rendimiento usando tecnología de punta."/>
+    <meta property="og:image" content="https://jakim.me/images/200.png"/>
+    <meta property="og:site_name" content="Jakim Hernández"/>
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:url" content="https://jakim.me/"/>
+    <meta property="twitter:title" content="Jakim Hernández - Fullstack Developer Fullstack Web Developer DevOps Engineer"/>
+    <meta property="twitter:description" content="Desarrollo de aplicaciones web modernas y escalables"/>
+    
+    <!-- Author & Contact -->
+    <meta name="author" content="Jakim Hernández"/>
+    <meta name="creator" content="Jakim Hernández"/>
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://jakim.me/"/>
+    
+    <!-- Icons -->
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/144.png"/>
+    
+    <!-- Alternate Links -->
+    <link rel="alternate" hreflang="es" href="https://jakim.me/"/>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/main.css"/>
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" as="style" href="styles/main.css"/>
+    
+    <!-- Calendly badge widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <!-- Calendly badge widget end -->
+</head>
 
-    <head>
-        <!--Main meta:-->
-        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        <title>Jakim Hernández - Desarrollador Full Stack.</title>
-        <meta name="description" content="Desarrollo Sitios Web y Aplicaciones extraordinarias usando Vue.js, Flask, MongoDB, Docker y otras excelentes herramientas."/>
-        <meta name="keywords" content="Jakim, Hernández, Jakim Hernández, egalink, freelance, México, Cuautitlán, Izcalli, Cuautitlán Izcalli, diseño web, desarrollo web, asesoría tecnológica, estrategia digital, posicionamiento orgánico, posicionamiento en buscadores, medio tiempo, tiempo completo, pagos por hora, pagos por mes, pagos por proyecto, programador, programación, sitios web, aplicaciónes web, diseño adaptable, versionamiento semántico, validación W3C, PyME, freelancing, web design, web developer, technological advice, digital strategy, organic positioning, SEO, halftime, fulltime, pay per hour, pay per month, pay per project, programmer, programming, websites, web applications, responsive design, semantic versioning, validation W3C, webmster, DevOps, Docker, Azure, AWS"/>
-        <meta name="geography" content="México"/> 
-        <meta name="city" content="Cuautitlán Izcalli, Estado de México"/>
-        <meta name="robots" content="index, follow"/>
-        <meta name="msapplication-TileImage" content="images/144.png"/>
-        <meta name="msapplication-TileColor" content="#F0F0F0"/>
-        <link rel="apple-touch-icon" sizes="144x144" href="images/144.png"/>
-        <link rel="apple-touch-icon" sizes="120x120" href="images/120.png"/>
-        <link rel="apple-touch-icon" sizes="72x72" href="images/72.png"/>
-        <link rel="apple-touch-icon" href="images/57.png"/>
-        <link rel="image_src" href="images/200.png"/>
-        <link rel="shortcut icon" href="favicon.ico"/>
-        <!--FB meta:-->
-        <!--https://developers.facebook.com/tools/debug/-->
-        <meta property="og:title" content="Jakim Hernández - Desarrollador Full Stack."/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://jakim.me/" />
-        <meta property="og:image" content="https://jakim.me/images/200.png"/>
-        <meta property="og:description" content="Desarrollo Sitios Web y Aplicaciones utilizando tecnologías Node.js, PHP, Python, PostgreSQL, MongoDB, Docker..."/>
-        <!--Media:-->
-        <link href="styles/egalink.css" rel="stylesheet"/>
-        <link href="styles/ie.css" rel="stylesheet"/>
-        <script src="js/html5shiv.min.js"></script>
-        <script src="js/html5shiv-printshiv.min.js"></script>
-        <!-- Calendly badge widget begin -->
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-        <!-- Calendly badge widget end -->
-    </head>
+<body>
 
-    <body>
+    <!-- Header/Navigation -->
+    <header class="site-header">
+        <nav class="site-header__nav" role="navigation" aria-label="Navegación principal">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li class="nav-list__item"><a href="#services" class="nav-link">Servicios</a></li>
+                <li class="nav-list__item"><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li class="nav-list__item"><a href="#contact" class="nav-link">Contacto</a></li>
+                <li class="nav-list__item"><a href="./cv/" class="nav-link nav-link--cv">CV</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <noscript>You need to enable JavaScript to run this app.</noscript>
-
-        <!-- the preloader: -->
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-
-
-        <!-- header: -->
-        <header id="header">
-            <nav class="content text-center nav-collapse">
-                <a href="#me">Yo</a>
-                <a href="#experience">Experiencia</a>
-                <a href="#work">Proyectos</a>
-                <a href="#contact">Contacto</a>
-                <a href="./cv/" target="_blank" class="nav-link--cv">Curriculum Vitae</a>
-                <a href="https://github.com/egalink" target="_blank" title="Mi repositorio en GitHub"><span class="fa fa-github fa-lg"></span></a>
-            </nav>
-        </header>
-        <!---->
-
-        <!-- me: -->
-        <section id="me" class="fullpage fullpage--centered parallax" style="--background: url('../images/bg-0.jpeg')">
-            <article class="content griditify">
-                <div class="row middle">
-                    <div class="col-xs-12 col-sm-12 col-md-04">
-                        <div class="wrapper wrapper--img reveal">
-                            <img class="img-responsive img-bordered img-rounded" src="images/me.jpg" alt="images/me.svg"/>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-08">
-                        <div class="wrapper reveal">
-                            <div class="me__card me__card--presentation me__card--about">
-                                <h1>Soy Jakim Hernández</h1>
-                                <p>Desarrollo Sitios Web y Aplicaciones extraordinarias usando <b>Vue.js, Flask, MongoDB, Docker</b> y otras excelentes herramientas.</p>
-                                <br/>
-                                <h2>
-                                    <span class="display-block">Contáctame para,</span>
-                                    <span class="display-block cd-headline letters type">
-                                        <span class="display-inblock cd-words-wrapper">
-                                            <b class="is-visible">desarrollar un sitio web responsivo.</b>
-                                            <b>crear una landing page o e-commerce.</b>
-                                            <b>hacer una aplicación a la medida.</b>
-                                            <b>desarrollar una app móvil.</b>
-                                            <b>integrar pasarelas de pago.</b>
-                                            <b>consumir o crear una API.</b>
-                                            <b>implementar micro-servicios.</b>
-                                            <b>una solución on-cloud de Azure o AWS.</b>
-                                        </span>
-                                    </span>
-                                </h2>
-                            </div>
-                            <br/>
-                            <div class="me__card me__card--presentation">
-                                <p>
-                                    <a class="btn" href="mailto:egalink@gmail.com">
-                                        <span class="fa fa-envelope"></span>
-                                    </a>
-                                    <a class="btn" href="https://calendly.com/egalink/platicame-tu-idea-proyecto" onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/egalink' }); return false;">
-                                        <span class="fa fa-calendar"></span>
-                                    </a>
-                                    <a class="btn" target="_blank" href="https://www.linkedin.com/in/egalink">
-                                        <span class="fa fa-linkedin"></span>
-                                    </a>
-                                    <a class="btn" href="https://twitter.com/egalink" target="_blank">
-                                        <span class="fa fa-twitter"></span>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="about" class="about">
+            <div class="container about__container">
+                <div class="about__description">
+                    <h1>Jakim Hernández</h1>
+                    <h2>Fullstack Developer · DevOps Engineer</h2>
+                    <p>
+                        Construyo <strong>soluciones web escalables, seguras y high-performance</strong> que impulsan el crecimiento de tu negocio. Con 5+ años de experiencia en desarrollo fullstack, arquitectura cloud y DevOps, especializado en transformar ideas en productos que generan
+                        valor.
+                    </p>
+                    <div class="about__cta">
+                        <a href="#contact" class="btn btn--primary">Empezar un proyecto</a>
+                        <a href="./cv/" class="btn btn--secondary">Ver mi CV</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="wrapper reveal">
-                            <p class="margin-none-auto text-center">
-                                <a class="display-inblock smooth" href="#experience">
-                                    <span class="display-block">¿Quieres ver mi experiencia?</span>
-                                    <span class="down-arrow"></span>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+                <div class="about__image">
+                    <img src="images/me.png" alt="Jakim Hernández" class="about__photo"/>
                 </div>
-            </article>
+            </div>
         </section>
-        <!---->
 
-        <!-- experience: -->
-        <section id="experience">
-            <article class="content griditify">
-                <div class="row middle center">
-                    <div class="col-xs-12">
-                        <div class="wrapper reveal">
-                            <h2 class="text-center">Experiencia</h2>
-                            <p class="text-center enlarge">¡En todas las fases del proceso de Diseño, Desarrollo e Implementación de tu Proyecto Web!</p>
-                            <div class="clearfix line"></div>
-                        </div>
-                    </div>
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Servicios</h2>
+                <p class="section-intro">Servicios especializados que transforman tu visión en soluciones de impacto empresarial</p>
+                
+                <div class="services__grid">
+                    <article class="service-card">
+                        <h3>Desarrollo Web Moderno</h3>
+                        <p>Aplicaciones web que generan conversiones. Desde landing pages hasta plataformas complejas con tecnologías cutting-edge y UX optimizado.</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <h3>Arquitectura Escalable</h3>
+                        <p>Diseño robusto que crece con tu negocio. Microservicios, APIs RESTful y patrones que garantizan mantenibilidad a largo plazo.</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <h3>Infraestructura de Datos</h3>
+                        <p>Bases de datos optimizadas (PostgreSQL, MongoDB). Esquemas diseñados para velocidad, escalabilidad y confiabilidad en producción.</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <h3>DevOps & Cloud Deployment</h3>
+                        <p>Pipelines CI/CD automatizados, containerización con Docker, y despliegue en Azure/AWS. Infraestructura confiable 24/7.</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <h3>E-commerce</h3>
+                        <p>Desarrollo de tiendas online con integración de pasarelas de pago, carrito de compras y gestión de inventario.</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <h3>Soporte</h3>
+                        <p>Mantenimiento, optimización y soporte técnico continuo para garantizar el funcionamiento sin problemas.</p>
+                    </article>
                 </div>
-                <div class="row top center">
-                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
-                        <div class="wrapper reveal">
-                            <p class="text-center">
-                                <span class="icon fa fa-lightbulb-o"></span>
-                            </p>
-                            <h3>Planteamiento</h3>
-                            <p>Platicaremos tu idea y en conjunto armamos un concepto.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
-                        <div class="wrapper reveal">
-                            <p class="text-center">
-                                <span class="icon fa fa-file-text"></span>
-                            </p>
-                            <h3>Definición</h3>
-                            <p>Revisamos un ejemplo que iremos ajustando al concepto inicial.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
-                        <div class="wrapper reveal">
-                            <p class="text-center">
-                                <span class="icon fa fa-object-group"></span>
-                            </p>
-                            <h3>Diseño</h3>
-                            <p>Usando patrones intuitivos e interacciones precisas de UX/UI.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
-                        <div class="wrapper reveal">
-                            <p class="text-center">
-                                <span class="icon fa fa-code"></span>
-                            </p>
-                            <h3>Desarrollo</h3>
-                            <p>Con tecnologías, patrones y arquitecturas ad-oc a tu proyecto.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
-                        <div class="wrapper reveal">
-                            <p class="text-center">
-                                <span class="icon fa fa-flag-o"></span>
-                            </p>
-                            <h3>Entrega</h3>
-                            <p>Con las pruebas de funcionamiento pertinentes y el V°B° tuyo.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-06 col-md-04 col-lg-02">
-                        <div class="wrapper reveal">
-                            <p class="text-center">
-                                <span class="icon fa fa-headphones"></span>
-                            </p>
-                            <h3>Soporte</h3>
-                            <p>De 30 días (o un plan personalizado) para asegurar su éxito.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </article>
+            </div>
         </section>
-        <!---->
 
-        <!-- technology: -->
-        <section id="technology" class="diagonal-cut">
-            <article class="content griditify">
-                <div class="row center">
-                    <div class="col-xs-12">
-                        <div class="wrapper reveal">
-                            <h2 class="text-center">Tecnología</h2>
-                            <p class="text-center enlarge">¡Lo más moderno y seguro en la industria del software para Internet!</p>
-                            <div class="clearfix line"></div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="wrapper">
-                            <div class="wrapper wrapper--img reveal">
-                                <img class="img-responsive" src="./images/technology/stack.png" alt="" style="width: 100%; max-width: 960px;"/>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Why Choose Me Section -->
+        <section class="why-choose">
+            <div class="container">
+                <h2>¿Por qué elegirme?</h2>
+                <p class="section-intro">Combino expertise técnico con visión de negocio para entregar soluciones que crecen contigo</p>
+                
+                <div class="why-choose__grid">
+                    <article class="benefit-card">
+                        <h3>Soluciones Escalables</h3>
+                        <p>Diseño arquitecturas que crecen con tu negocio, desde startup hasta enterprise. Manejo millones de transacciones con eficiencia.</p>
+                    </article>
+                    
+                    <article class="benefit-card">
+                        <h3>Cloud Native</h3>
+                        <p>Experto en Azure y AWS. Implemento infraestructura con CI/CD, garantizando deployments rápidos, seguros y confiables 24/7.</p>
+                    </article>
+                    
+                    <article class="benefit-card">
+                        <h3>High Performance</h3>
+                        <p>Código optimizado que se traduce en UX rápida. Aplicaciones que cargan en milisegundos y generan conversiones.</p>
+                    </article>
+                    
+                    <article class="benefit-card">
+                        <h3>Seguridad Enterprise</h3>
+                        <p>Implemento best practices de seguridad, autenticación robusta y cumplimiento normativo para proteger tus datos.</p>
+                    </article>
+                    
+                    <article class="benefit-card">
+                        <h3>Mentalidad de Negocio</h3>
+                        <p>No solo código. Entiendo KPIs, ROI y user experience. Cada feature que desarrollo tiene objetivo de negocio.</p>
+                    </article>
+                    
+                    <article class="benefit-card">
+                        <h3>Full-Stack Expertise</h3>
+                        <p>Dominio completo: Backend + Frontend + DevOps. Control total sobre la calidad en cada capa de tu aplicación.</p>
+                    </article>
                 </div>
-                <div class="clearfix"></div>
-            </article>
+            </div>
         </section>
-        <!---->
 
-        <!-- work: -->
-        <section id="work" class="diagonal-cut diagonal-cut--inverted">
-            <article class="content">
-                <div class="wrapper reveal">
-                    <h2 class="text-center">Proyectos</h2>
-                    <p class="text-center margin-auto enlarge">Te muestro algunos de los proyectos en los que he colaborado activamente.</p>
-                    <div class="clearfix line"></div>
+        <!-- Tech Stack Section -->
+        <section id="tech" class="tech-stack">
+            <div class="container">
+                <h2>Stack Tecnológico</h2>
+                <p class="section-intro">Herramientas modernas para soluciones de clase mundial</p>
+                
+                <div class="tech-stack__grid">
+                    <div class="tech-category">
+                        <h3>Back-End</h3>
+                        <ul>
+                            <li class="tech-category__item">Node.js • Express.js • NestJS</li>
+                            <li class="tech-category__item">PHP • Laravel • CodeIgniter</li>
+                            <li class="tech-category__item">Python • Flask</li>
+                            <li class="tech-category__item">APIs RESTful • GraphQL</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>Front-End</h3>
+                        <ul>
+                            <li class="tech-category__item">React • Vue.js • Angular</li>
+                            <li class="tech-category__item">TypeScript • JavaScript</li>
+                            <li class="tech-category__item">HTML5 • CSS3 • SASS/LESS</li>
+                            <li class="tech-category__item">Bootstrap • Tailwind CSS</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>Base de Datos</h3>
+                        <ul>
+                            <li class="tech-category__item">PostgreSQL • MySQL • MS SQL</li>
+                            <li class="tech-category__item">MongoDB • Redis</li>
+                            <li class="tech-category__item">Elasticsearch</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>Cloud & DevOps</h3>
+                        <ul>
+                            <li class="tech-category__item">Azure • AWS • Google Cloud</li>
+                            <li class="tech-category__item">Docker • Kubernetes</li>
+                            <li class="tech-category__item">CI/CD • GitHub Actions • Jenkins</li>
+                            <li class="tech-category__item">Linux • Git</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="wrapper reveal flexslider">
-                    <ul class="slides">
-                        <li class="griditify">
-                            <div class="row middle center">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/calendar.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">calendar.js</h3>
-                                        <p class="text-left">Plug-in JS para generar un calendario de eventos. Simple, minimalista, potente y completamente personalizable.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">Vanilla JS</span>
-                                            <span class="dot--separator">Node.js</span>
-                                            <span class="dot--separator">Grunt</span>
-                                            <span class="dot--separator">CSS3</span>
-                                            <span>HTML5</span>
-                                        </p>
-                                        <p class="text-left options">
-                                            <a class="btn btn--bounce-bottom" target="_blank" href="//jakim.me/calendar.js/">Ver Online</a>
-                                        </p>
-                                    </div>
-                                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process">
+            <div class="container">
+                <h2>Mi Proceso de Trabajo</h2>
+                <p class="section-intro">Metodología probada que garantiza resultados, transparencia y entrega en tiempo</p>
+                
+                <div class="process__grid">
+                    <div class="process-card">
+                        <div class="step-number">1</div>
+                        <h3>Descubrimiento</h3>
+                        <p>Entiendo profundamente tu negocio, objetivos y usuarios. Análisis completo de requisitos y definición clara del alcance.</p>
+                    </div>
+                    
+                    <div class="process-card">
+                        <div class="step-number">2</div>
+                        <h3>Diseño & Arquitectura</h3>
+                        <p>Planificación técnica detallada. Selección de tecnologías óptimas, diseño de arquitectura y validación con stakeholders.</p>
+                    </div>
+                    
+                    <div class="process-card">
+                        <div class="step-number">3</div>
+                        <h3>Desarrollo Ágil</h3>
+                        <p>Sprints iterativos de 2 semanas. Entregas frecuentes, code reviews rigurosos y testing automatizado en cada paso.</p>
+                    </div>
+                    
+                    <div class="process-card">
+                        <div class="step-number">4</div>
+                        <h3>Deploy & Monitoreo</h3>
+                        <p>Despliegue a producción con CI/CD. Monitoreo proactivo, alertas inteligentes y soporte 24/7 para máxima confiabilidad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Proyectos Destacados</h2>
+                <p class="section-intro">Algunos de los proyectos en los que he colaborado</p>
+                
+                <div class="projects__grid">
+                    <article class="project-card card-state">
+                        <img src="images/portafolio/calendar.png" alt="calendar.js - Plugin de calendario para JavaScript" class="project-card__image" loading="lazy"/>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Calendar.js</h3>
+                            <p class="project-card__description">Plugin de JavaScript para crear calendarios de eventos personalizables, minimalistas y potentes.</p>
+                            <div class="project-card__tags" aria-label="Tecnologías utilizadas">
+                                <span class="project-card__tag">JavaScript</span>
+                                <span class="project-card__tag">CSS3</span>
+                                <span class="project-card__tag">HTML5</span>
                             </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center reverse">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/nominas1.2.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Sistema de Nónima con el complemento 1.2 del SAT</h3>
-                                        <p class="text-left">Aplicación web para la gestión del pago de nómina de empleados con el complemento 1.2 del SAT.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP Laravel 5.4</span>
-                                            <span class="dot--separator">MySQL</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span class="dot--separator">CSS3 Sass</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span>GIT</span>
-                                        </p>
-                                    </div>
-                                </div>
+                            <a href="https://jakim.me/calendar.js/" target="_blank" rel="noopener noreferrer" class="btn btn--small">Ver Proyecto</a>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card card-state">
+                        <img src="images/portafolio/toasty.png" alt="Toasty.js - Plugin de notificaciones para sitios web" class="project-card__image" loading="lazy"/>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Toasty.js</h3>
+                            <p class="project-card__description">Plugin de notificaciones para sitios web con diseño minimalista y opciones de personalización avanzadas.</p>
+                            <div class="project-card__tags" aria-label="Tecnologías utilizadas">
+                                <span class="project-card__tag">JavaScript</span>
+                                <span class="project-card__tag">CSS3</span>
+                                <span class="project-card__tag">HTML5</span>
                             </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/toasty.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Toasty.js</h3>
-                                        <p class="text-left">Plug-in JS que proporciona una forma sencilla de mostrar notificaciones personalizables en un sitio web.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">Vanilla JS</span>
-                                            <span class="dot--separator">Node.js</span>
-                                            <span class="dot--separator">Grunt</span>
-                                            <span class="dot--separator">CSS3</span>
-                                            <span>HTML5</span>
-                                        </p>
-                                        <p class="text-left options">
-                                            <a class="btn btn--bounce-bottom" target="_blank" href="//jakim.me/Toasty.js/">Ver Online</a>
-                                        </p>
-                                    </div>
-                                </div>
+                            <a href="https://jakim.me/Toasty.js/" target="_blank" rel="noopener noreferrer" class="btn btn--small">Ver Proyecto</a>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card card-state">
+                        <img src="images/portafolio/interlux-website.png" alt="Interlux Persianas - Sistema de cotización en línea" class="project-card__image" loading="lazy"/>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Interlux Persianas</h3>
+                            <p class="project-card__description">Sitio web con sistema de cotización en línea, impresión de presupuestos y notificaciones automáticas.</p>
+                            <div class="project-card__tags" aria-label="Tecnologías utilizadas">
+                                <span class="project-card__tag">Laravel</span>
+                                <span class="project-card__tag">MySQL</span>
+                                <span class="project-card__tag">Bootstrap</span>
                             </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center reverse">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/dyd.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Aplicación web para envío de invitaciones.</h3>
-                                        <p class="text-left">Envía invitaciones por correo electrónico y recordatorios automáticos para su evento (basado en la aplicación web "Fastener Fair México 2016").</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP Laravel 5.3</span>
-                                            <span class="dot--separator">MySQL</span>
-                                            <span class="dot--separator">HTML5 Bootstrap</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span class="dot--separator">CSS3 Sass</span>
-                                            <span>GIT</span>
-                                        </p>
-                                        <p class="text-left options">
-                                            <a class="btn btn--bounce-bottom" target="_blank" href="//soumatech.net/dyd">Ver Online</a>
-                                        </p>
-                                    </div>
-                                </div>
+                            <a href="https://interlux.com.mx/" target="_blank" rel="noopener noreferrer" class="btn btn--small">Ver Proyecto</a>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card card-state">
+                        <img src="images/portafolio/epg-2015.png" alt="Expo Pack Guadalajara - Sitio web para evento internacional" class="project-card__image" loading="lazy"/>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Expo Pack Guadalajara</h3>
+                            <p class="project-card__description">Sitio web para promoción de evento internacional con registro de participantes y panel administrativo.</p>
+                            <div class="project-card__tags" aria-label="Tecnologías utilizadas">
+                                <span class="project-card__tag">CodeIgniter</span>
+                                <span class="project-card__tag">MySQL</span>
+                                <span class="project-card__tag">HTML5</span>
                             </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/fastener-fair.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Fastener Fair México 2016</h3>
-                                        <p class="text-left">Envía campañas de marketing por correo electrónico en solo 5 pasos, con diseños de plantillas personalizables.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP Laravel 5.2</span>
-                                            <span class="dot--separator">HTML5 Bootstrap</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3 Sass</span>
-                                        </p>
-                                    </div>
-                                </div>
+                            <a href="https://www.expopackguadalajara.com.mx/" target="_blank" rel="noopener noreferrer" class="btn btn--small">Ver Proyecto</a>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card card-state">
+                        <img src="images/portafolio/locutora.png" alt="Locutora Portfolio - Sitio web profesional con CMS personalizado" class="project-card__image" loading="lazy"/>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Locutora Portfolio</h3>
+                            <p class="project-card__description">Sitio web profesional con CMS personalizado para gestión de contenido multimedia y galería de trabajos.</p>
+                            <div class="project-card__tags" aria-label="Tecnologías utilizadas">
+                                <span class="project-card__tag">Laravel</span>
+                                <span class="project-card__tag">MySQL</span>
+                                <span class="project-card__tag">jQuery</span>
                             </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center reverse">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/interlux-website.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Sitio web para Interlux Persianas</h3>
-                                        <p class="text-left">Tiene un sistema de cotización en línea que imprime el presupuesto calculado y lo notifica a la empresa.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP Laravel 5.1</span>
-                                            <span class="dot--separator">HTML5 Bootstrap</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3 Sass</span>
-                                        </p>
-                                        <p class="text-left options">
-                                            <a class="btn btn--bounce-bottom" target="_blank" href="//interlux.com.mx/">Ver Online</a>
-                                        </p>
-                                    </div>
-                                </div>
+                            <a href="https://locutora.com.mx/" target="_blank" rel="noopener noreferrer" class="btn btn--small">Ver Proyecto</a>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card card-state">
+                        <img src="images/portafolio/nominas1.2.png" alt="Sistema de Nómina SAT - Gestión de nómina con complemento 1.2 del SAT" class="project-card__image" loading="lazy"/>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Sistema de Nómina SAT</h3>
+                            <p class="project-card__description">Aplicación web para gestión de nómina con complemento 1.2 del SAT, generación de CFDI y comprobantes.</p>
+                            <div class="project-card__tags" aria-label="Tecnologías utilizadas">
+                                <span class="project-card__tag">Laravel</span>
+                                <span class="project-card__tag">MySQL</span>
+                                <span class="project-card__tag">SASS</span>
                             </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/locutora-admin.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">CMS desde cero para el sitio web de Locutora</h3>
-                                        <p class="text-left">Administra el contenido multimedia que se muestra en el sitio web de Verónica López Treviño.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP Laravel 5</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3</span>
-                                        </p>
-                                        <p class="text-left options">
-                                            <a class="btn btn--bounce-bottom" target="_blank" href="//locutora.com.mx/admin">Ver Online</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center reverse">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/interlux-proveedores.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Sistema de proveedores para Interlux Persianas</h3>
-                                        <p class="text-left">Aplicación para el control de proveedores y su facturación.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP Laravel 5</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/locutora.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Sitio web - Locutora</h3>
-                                        <p class="text-left">Sitio web para Verónica López Treviño, locutora y actriz de doblaje mexicana.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP Laravel 5</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3</span>
-                                        </p>
-                                        <p class="text-left options">
-                                            <a class="btn btn--bounce-bottom" target="_blank" href="//locutora.com.mx/">Ver Online</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center reverse">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/interlux-nominas.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Sistema de gestión de nómina para Interlux Persianas</h3>
-                                        <p class="text-left">Genera el CFDI para la nómina de los empleados.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP Laravel 4.x</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/epg-2015.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Expo Pack Guadalajara 2015</h3>
-                                        <p class="text-left">Sitio web para promocionar la segunda edición del evento Expo Pack.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP</span>
-                                            <span class="dot--separator">CodeIgniter</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3</span>
-                                        </p>
-                                        <p class="text-left options">
-                                            <a class="btn btn--bounce-bottom" target="_blank" href="//www.expopackguadalajara.com.mx">Ver Online</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center reverse">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/interlux-sistema-ventas.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Sistema de ventas para Interlux Persianas</h3>
-                                        <p class="text-left">Control y seguimiento de las actividades de venta llevadas a cabo dentro de la empresa.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP</span>
-                                            <span class="dot--separator">CodeIgniter</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/epm-2014.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Expo Pack México 2014</h3>
-                                        <p class="text-left">Sitio web para promover la 1ra edición del evento Expo Pack en la Ciudad de México.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP</span>
-                                            <span class="dot--separator">CodeIgniter</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3</span>
-                                        </p>
-                                        <p class="text-left options">
-                                            <a class="btn btn--bounce-bottom" target="_blank" href="//www.expopack.com.mx/">Ver Online</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="griditify">
-                            <div class="row middle center reverse">
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <img class="img-responsive width-85" src="images/portafolio/fem-internacional.png" alt=""/>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-06">
-                                    <div class="wrapper">
-                                        <h3 class="text-left">Sistema de gestión de registros para FEM fem-internacional</h3>
-                                        <p class="text-left">Permite una fácil gestión en el registro de caballos de nuevo ingreso.</p>
-                                        <p class="text-left chops dot">
-                                            <span class="dot--separator">PHP</span>
-                                            <span class="dot--separator">CodeIgniter</span>
-                                            <span class="dot--separator">HTML5</span>
-                                            <span class="dot--separator">JS jQuery</span>
-                                            <span>CSS3</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section (with CTA) -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>¿Transformemos tu idea en una solución de impacto</h2>
+                <p>Tengo disponibilidad para nuevos proyectos. Cotizaciones sin compromisos.</p>
+                <h2 class="contact__title-secondary">¡Contáctame!</h2>
+                
+                <div id="contact-methods" class="contact__methods" aria-label="Métodos de contacto disponibles">
+                    <div class="contact-method">
+                        <h3>Calendario</h3>
+                        <p>Agenda una llamada directamente disponible en tu zona horaria.</p>
+                        <a href="https://calendly.com/egalink/platicame-tu-idea-proyecto" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Agendar Llamada</a>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <h3>Email</h3>
+                        <p>Envíame un email con los detalles de tu proyecto.</p>
+                        <a href="mailto:egalink@gmail.com" class="btn btn--primary">egalink@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <h3>Teléfono</h3>
+                        <p>Llama directamente para una consulta rápida.</p>
+                        <a href="tel:+5215513718399" class="btn btn--primary">+52 1 55 1371 8399</a>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h3>Sígueme en redes</h3>
+                    <ul class="social-list" aria-label="Enlaces a redes sociales">
+                        <li><a href="https://www.linkedin.com/in/egalink" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn">LinkedIn</a></li>
+                        <li><a href="https://github.com/egalink" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub">GitHub</a></li>
+                        <li><a href="https://twitter.com/egalink" target="_blank" rel="noopener noreferrer" aria-label="Perfil de Twitter">Twitter</a></li>
                     </ul>
                 </div>
-                <div class="clearfix"></div>
-            </article>
-        </section>
-        <!---->
-
-        <!-- contact: -->
-        <section id="contact" class="diagonal-cut">
-            <article class="content">
-                <div class="griditify">
-                    <div class="row middle">
-                        <div class="col-xs-00">
-                            <div class="wrapper reveal">
-                                <h2 class="text-center">¡Disponible para Trabajar!</h2>
-                                <p class="text-center enlarge">
-                                    Actualmente, estoy aceptando nuevos proyectos y me encantaría conocer tu idea. 
-                                    <br/>
-                                    Tómate unos minutos para contarme al respecto.
-                                </p>
-                                <div class="clearfix line"></div>
-                            </div>
-                            <div class="wrapper reveal">
-                                <p class="text-center">México</p>
-                                <p class="text-center">
-                                    <a class="btn btn--active-status smooth" href="https://calendly.com/egalink/platicame-tu-idea-proyecto" onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/egalink' }); return false;">
-                                        <span class="fa fa-calendar"></span> Agenda llamada
-                                    </a>
-                                    <a class="btn btn--bounce-bottom" href="tel:+5215513718399">
-                                        <span class="fa fa-phone"></span> +52 1 55 1371 8399
-                                    </a>
-                                    <a class="btn btn--bounce-bottom" href="mailto:egalink@gmail.com">
-                                        <span class="fa fa-envelope"></span> egalink@gmail.com
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="wrapper reveal">
-                                <p class="text-center enlarge">
-                                    <a class="display-inblock with-50" target="_blank" href="https://www.linkedin.com/in/egalink">
-                                        <span class="fa fa-linkedin-square"></span> LinkedIn
-                                    </a>
-                                    <span class="display-inblock width-05">|</span>
-                                    <a class="display-inblock with-50" target="_blank" href="https://github.com/egalink">
-                                        <span class="fa fa-github"></span> GitHub
-                                    </a>
-                                    <span class="display-inblock width-05">|</span>
-                                    <a class="display-inblock with-50 smooth" href="https://twitter.com/egalink" target="_blank">
-                                        <span class="fa fa-twitter"></span> Twitter
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="wrapper reveal">
-                                <p class="text-center enlarge">Cotizaciones sin compromiso, pagos por hora, mes o proyecto.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </article>
-        </section>
-        <!---->
-
-        <!-- footer: -->
-        <footer class="parallax">
-            <div class="content vertical-middle text-center">
-                <p>Jakim Hernández &copy; 2017<span id="current-year"></span>.</p>
             </div>
-        </footer>
-        <!---->
+        </section>
+    </main>
 
-        <!-- assets: -->
-        <script src="js/jquery-1.11.3.min.js"></script>
-        <script src="js/egalink.js"></script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-83511003-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; Jakim Hernández 2017-2026. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 
-    </body>
+    <!-- Analytics -->
+    <script async defer>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-83511003-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
 </html>
